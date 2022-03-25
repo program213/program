@@ -13,4 +13,4 @@ markers=['s','o','v']
 k=3
 clusters=KMeans(n_clusters=k).fit(X)
 for i,l in enumerate(clusters.labels_):
-  plt.plot(x1[i],x2[i],marker=markers[l])
+    plt.plot(x1[i],x2[i],marker=markers[l])
